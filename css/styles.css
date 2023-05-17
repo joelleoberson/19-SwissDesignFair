@@ -14,7 +14,41 @@ img {
 }
 
 .box-title {
-  box-shadow: 10px 5px 5px #565656;
+  box-shadow: 5px 5px 5px #565656;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+h1 {
+  margin: auto;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+h2 {
+  font-family: 'Baloo Paaji 2';
+  color: #5A3D2B;
+}
+
+img {
+ width: 30px;
+}
+
+.research {
+  background: #FFABFF;
+  padding: 15px 20px 40px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+main img {
+ width: 100%;
+}
+
+p {
+margin: 20px;
+font-family: 'Yantramanav', sans-serif;
 }
 
 .background-orange {
@@ -54,10 +88,12 @@ input {
 
 a {
   border-radius: 15px;
-  padding: 5px;
+  padding: 5px 15px 5px 15px;
   border-width: 1px;
   border-style: solid;
   border-color: #5A3D2B;
+  font-family: 'Baloo Paaji 2';
+  color: #5A3D2B;
 }
 
 .nav-artiste {
@@ -82,3 +118,14 @@ a {
   justify-content: space-around;
   margin: 10px;
 }
+
+.contenair-img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contenair-img img {
+  width: 150px;
+  }

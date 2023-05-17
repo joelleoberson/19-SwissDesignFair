@@ -13,6 +13,10 @@ img {
   max-width: 100%;
 }
 
+.box-title {
+  box-shadow: 10px 5px 5px #565656;
+}
+
 .background-orange {
   background: #F4A127;
   padding: 20px;
@@ -34,10 +38,47 @@ footer {
 
 .card {
   background: #fff;
-  border-radius: 20px; 
+  border-radius: 15px; 
 }
 
 header {
   position: sticky;
   background: #fff;
+}
+
+input {
+  background: #DD7CE0;
+  border-radius: 50px;
+  width: 150px;
+}
+
+a {
+  border-radius: 15px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #5A3D2B;
+}
+
+.nav-artiste {
+  background: #75C8AE;
+}
+
+.nav-expo {
+  background: #FFECB4;
+}
+
+.nav-vente {
+  background: #F4A127;
+}
+
+.nav-contact {
+  background: #FFABFF;
+}
+
+.contenair-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
 }
